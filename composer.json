@@ -1,24 +1,25 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ht3aa/filament-navigation-item-action",
+    "description": "This package will add the ability to add actions to each navigation item in the sidebar of filament panel",
     "keywords": [
-        ":vendor_name",
+        "ht3aa",
         "laravel",
-        ":package_slug"
+        "filament-navigation-item-action"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ht3aa/filament-navigation-item-action",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "ht3aa",
+            "email": "ht3aa2001@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.4",
-        "spatie/laravel-package-tools": "^1.16",
-        "illuminate/contracts": "^10.0||^11.0||^12.0"
+        "filament/filament": "^3.3",
+        "illuminate/contracts": "^10.0||^11.0||^12.0",
+        "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
         "laravel/pint": "^1.14",
@@ -35,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Ht3aa\\FilamentNavigationItemAction\\": "src/",
+            "Ht3aa\\FilamentNavigationItemAction\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Ht3aa\\FilamentNavigationItemAction\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ht3aa\\FilamentNavigationItemAction\\FilamentNavigationItemActionServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentNavigationItemAction": "Ht3aa\\FilamentNavigationItemAction\\Facades\\FilamentNavigationItemAction"
             }
         }
     },
