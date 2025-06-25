@@ -4,7 +4,6 @@ namespace Ht3aa\FilamentNavigationItemAction;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ht3aa\FilamentNavigationItemAction\Commands\FilamentNavigationItemActionCommand;
 
 class FilamentNavigationItemActionServiceProvider extends PackageServiceProvider
 {

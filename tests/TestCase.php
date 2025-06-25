@@ -2,9 +2,9 @@
 
 namespace Ht3aa\FilamentNavigationItemAction\Tests;
 
+use Ht3aa\FilamentNavigationItemAction\FilamentNavigationItemActionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ht3aa\FilamentNavigationItemAction\FilamentNavigationItemActionServiceProvider;
 
 class TestCase extends Orchestra
 {
